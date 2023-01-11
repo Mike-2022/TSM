@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>TSM</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css">
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    </head>
+    <body>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <nav class="bg-primary navbar navbar-expand-lg navbar-light sticky-top" style="margin-bottom: 10px;" data-pgc="Encabezado"> 
+            <div class="align-items-xl-center container-fluid d-md-flex justify-content-md-center justify-content-start justify-content-xl-center">
+                <button class="btn btn-primary border border-2 border-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" style="margin-right: 11px;width: 42px;padding: 2px;padding-right: 2px;padding-left: 2px;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <h6 style="margin-bottom: 0px; font-family: 'Baumans', sans-serif;" class="fw-bold text-white">Temas selectos de m</h6>
+                <h6 style="margin-bottom: 0px; font-family: 'Baumans', sans-serif;" class="fw-bold text-white">atemáticas -&nbsp;</h6>
+                <h6 class="fw-bold ps-1 text-bg-primary text-dark" style="--bs-secondary: #7801c8; --bs-secondary-rgb: 120,1,200; margin-bottom: 0px; font-family: 'Baumans', sans-serif;" data-pgc-field="Tema">Operaciones con matrices</h6>
+            </div>
+        </nav>
+        <div id="offcanvasWithBothOptions" class="offcanvas offcanvas-start text-bg-primary" tabindex="-1" data-bs-scroll="true" aria-labelledby="offcanvasWithBothOptionsLabel" data-pgc="MenuLateral">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasWithBothOptionsLabel" class="offcanvas-title" style="font-family: Aldrich, sans-serif;height: 15px;">Menú</h5>
+                <button class="btn-close text-reset" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="list-group">
+                    <a class="list-group-item list-group-item-action" href="P%C3%A1gina%201.html"> <span>Matrices</span> </a>
+                    <a class="list-group-item list-group-item-action" href="P%C3%A1gina%201.html"> <span>Operaciones con matrices</span> </a>
+                </div>
+            </div>
+        </div>
+        <div class="border border-2 border-dark container rounded-5">
+            <p style="text-align: justify;" class="border border-2 border-primary mt-3 p-3 rounded-2"><b class="text-primary">Igualdad    de  matrices.</b><br>Dos matrices son iguales    si tienen  el  mismo tamaño y sus elementos  correspondientes  son iguales.<br><br><b>Ejemplos</b>: En cada   caso   decir   si las     matrices   son  iguales:<br><br><img class="border border-2 border-dark img-fluid mb-2 mt-3 rounded rounded-1" src="assets/Imagenes/MatricesOp1.JPG" style="width: 500px;box-shadow: 10px 10px 5px var(--bs-dark)" data-pg-ia="{&quot;l&quot;:[{&quot;trg&quot;:&quot;timer&quot;,&quot;timer&quot;:&quot;6s&quot;,&quot;d&quot;:&quot;5s&quot;,&quot;a&quot;:&quot;jackInTheBox&quot;}]}"><br>Las dos   matrices  tienen    el    mismo tamaño.   Puesto   que los   elementos    correspondientes      son todos   iguales, 
+entonces \(A  = B\).<br><br><img class="border border-2 border-dark img-fluid mb-2 mt-3 rounded rounded-1" src="assets/Imagenes/MatricesOp2.JPG" style="width: 500px;box-shadow: 10px 10px 5px var(--bs-dark)" data-pg-ia="{&quot;l&quot;:[{&quot;trg&quot;:&quot;timer&quot;,&quot;timer&quot;:&quot;6s&quot;,&quot;d&quot;:&quot;5s&quot;,&quot;a&quot;:&quot;jackInTheBox&quot;}]}"><br>Las  dos    matrices  tienen     el   mismo  tamanño.     Aunque 
+los   numeros    usados   en ambas     matrices   son los     mismos, estos     se  encuentran      en  posiciones      diferentes.<br><br>Basta   observar     que   el  elemento 
+que el elemento a<sub>11</sub> = 3, mientras que el elemento b<sub>11</sub>             = -1. Asi \(A \ne B\).<br><br><img class="border border-2 border-dark img-fluid mb-2 mt-3 rounded rounded-1" src="assets/Imagenes/MatricesOp3.JPG" style="width: 500px;box-shadow: 10px 10px 5px var(--bs-dark)" data-pg-ia="{&quot;l&quot;:[{&quot;trg&quot;:&quot;timer&quot;,&quot;timer&quot;:&quot;6s&quot;,&quot;d&quot;:&quot;5s&quot;,&quot;a&quot;:&quot;jackInTheBox&quot;}]}"><br>Aunque   los   numeros    usados   en  ambas     matrices   son 
+los     mismos,   ellas  tienen     distinto    tamaño,   por  tanto \(A \ne B\).<br></p>
+            <p style="text-align: justify;" class="border border-2 border-primary mt-3 p-3 rounded-2"><b class="text-primary">Suma y resta de matrices</b><br>La  suma     (resta)      de   dos     matrices     de igual     tamaño    se   obtiene      sumando      (restando)        los    elementos        correspondientes. Dos matrices pueden sumarse solo sitienen  el  mismo tamaño.<br><br><b class="text-danger">Ejemplo.</b>&nbsp;En un rancho bovino, ocho crías son sometidas a un experimento de cambio de alimento con el fin de saber si es 
+posible lograr un aumento sustancial de peso en tres semanas, en cuyo caso el alimento sería cambiado. Cuatro de los 
+animales son machos y los restantes son hembras. ¿Sera cambiado el alimento?<br><br><b>Solucion:</b>
+Al inicio    del experimento    se recabaron  los  siguientes    datos con respecto   al peso delos  animales   en  kilogramos:<br><img class="border border-2 border-dark img-fluid mb-2 mt-3 rounded rounded-1 w-auto" src="assets/Imagenes/MatricesOp4.JPG" style="width: 500px;box-shadow: 10px 10px 5px var(--bs-dark)"><br><br>Al cabo  de las tres  semanas  con el alimento    de prueba  se registró en el   mismo orden:<br><img class="border border-2 border-dark img-fluid mb-2 mt-3 rounded rounded-1 w-auto" src="assets/Imagenes/MatricesOp5.JPG" style="width: 500px;box-shadow: 10px 10px 5px var(--bs-dark)"><br><br>Utilizando matrices la situación al principio de la prueba se representa por:<br><img class="border border-2 border-dark img-fluid mb-2 mt-3 rounded rounded-1 w-auto" src="assets/Imagenes/MatricesOp6.JPG" style="width: 500px;box-shadow: 10px 10px 5px var(--bs-dark)"><br><br>y tres   semanas    después    por:<br><img class="border border-2 border-dark img-fluid mb-2 mt-3 rounded rounded-1 w-auto" src="assets/Imagenes/MatricesOp7.JPG" style="width: 500px;box-shadow: 10px 10px 5px var(--bs-dark)"><br><br>Efectuando     la   diferencia       <b>B   -  A</b> tenemos:<br><img class="border border-2 border-dark img-fluid mb-2 mt-3 rounded rounded-1 w-auto" src="assets/Imagenes/MatricesOp8.JPG" style="width: 500px;box-shadow: 10px 10px 5px var(--bs-dark)"><br><br>es decir,  el cambio   de peso registrado   es:<br><img class="border border-2 border-dark img-fluid mb-2 mt-3 rounded rounded-1 w-auto" src="assets/Imagenes/MatricesOp9.JPG" style="width: 500px;box-shadow: 10px 10px 5px var(--bs-dark)"><br><br>Observamos  que con  el cambio   de alimento,  tres  crías  disminuyeron     su peso, tres  se   mantuvieron igual   y sólo  dos 
+aumentaron.     Debido  a los  resultados    obtenidos   no se cambiará de alimento.<br></p>
+            <p style="text-align: justify;" class="bg-light border border-2 border-primary mt-3 p-3 rounded-2"><b class="text-primary">Prodcuto de un número real por una matriz</b><br>El  producto      de  un  número    real     <b>α</b> por   una    matriz     <b>A</b> es la     matriz     <b>αA</b>.   Cada  elemento       de  <b>αA</b>  es  el  producto      del 
+número      <b>α</b> por   el  elemento      correspondiente           en   <b>A</b>. <br><br>La    matriz   <b>(-1)A</b>    la   escribimos        como      <b>-A</b>.<br><br>Cuando   <b>A</b> y  <b>B</b> tienen  el  mismo tamaño, se cumple que  <b>A -  B  =  A + (-1)B</b>.<br><br><br><b class="text-danger">Ejemplo 1.</b>&nbsp;Encontrar <b>5A</b> de la matriz<br><img class="border border-2 border-dark img-fluid mb-2 mt-3 rounded rounded-1 w-auto" src="assets/Imagenes/MatricesOp10.JPG" style="width: 500px;box-shadow: 10px 10px 5px var(--bs-dark)"><br><br><b>Solución:</b><br><img class="border border-2 border-dark img-fluid mb-2 mt-3 rounded rounded-1 w-auto" src="assets/Imagenes/MatricesOp11.JPG" style="width: 500px;box-shadow: 10px 10px 5px var(--bs-dark)"><br><br><br><b class="text-danger">Ejemplo 2.</b>&nbsp;Resolver        la siguiente ecuacion&nbsp;donde <b>X</b> es una matriz de 3 x 2.<br><img class="border border-2 border-dark img-fluid mb-2 mt-3 rounded rounded-1 w-auto" src="assets/Imagenes/MatricesOp12.JPG" style="width: 500px;box-shadow: 10px 10px 5px var(--bs-dark)"><br><br><b>Solución:</b><br>Para resolver esta ecuacion primero efectuamos el producto:<br><img class="border border-2 border-dark img-fluid mb-2 mt-3 rounded rounded-1 w-auto" src="assets/Imagenes/MatricesOp13.JPG" style="width: 500px;box-shadow: 10px 10px 5px var(--bs-dark)"><br><br>Entonces,    la  ecuacion     es:<br><img class="border border-2 border-dark img-fluid mb-2 mt-3 rounded rounded-1 w-auto" src="assets/Imagenes/MatricesOp14.JPG" style="width: 500px;box-shadow: 10px 10px 5px var(--bs-dark)"><br><br>Despejamos      <b>3X</b>:<br><img class="border border-2 border-dark img-fluid mb-2 mt-3 rounded rounded-1 w-auto" src="assets/Imagenes/MatricesOp15.JPG" style="width: 500px;box-shadow: 10px 10px 5px var(--bs-dark)"><br><br>Ahora   despejamos <b>X</b>:<br><img class="border border-2 border-dark img-fluid mb-2 mt-3 rounded rounded-1 w-auto" src="assets/Imagenes/MatricesOp16.JPG" style="width: 500px;box-shadow: 10px 10px 5px var(--bs-dark)"><br><br>Finalmente<br><img class="border border-2 border-dark img-fluid mb-2 mt-3 rounded rounded-1 w-auto" src="assets/Imagenes/MatricesOp17.JPG" style="width: 500px;box-shadow: 10px 10px 5px var(--bs-dark)"><br></p>
+            <div class="border border-2 border-dark mb-3 mt-3 p-3 rounded rounded-1" style="box-shadow: 10px 10px 5px var(--bs-dark);">
+                <p class="bg-white border-dark fs-4" style="text-align: justify" data-pg-ia='{"l":[]}'><span class="bg-warning border border-2 border-dark fs-2 fw-bold ms-n5 ps-5 text-primary">Recursos adicionales&nbsp;&nbsp;</span><br/><strong>Haz click en el siguiente enlace para ver tutoriales relacionados con el tema.</strong><br/></p>
+                <div class="bg-white border border-2 border-dark container d-flex flex-row flex-wrap justify-content-evenly pb-3 pt-3 rounded rounded-1" style="background: radial-gradient(var(--bs-white) 0%, var(--bs-blue) 98%);"><a href="https://www.youtube.com/watch?v=RJ96S2Pt3qU&list=PLeySRPnY35dEr2XewNdOjOl7Ft0tLIlKI" target="_blank"><img class="border border-2 border-dark img-fluid mb-2 mt-3 rounded rounded-1" style="width: 500px;box-shadow: 10px 10px 5px var(--bs-dark)" data-pg-ia='{"l":[]}' src="assets/Imagenes/MatrizVideo.JPG"/></a>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
